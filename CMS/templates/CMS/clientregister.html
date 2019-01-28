@@ -1,0 +1,15 @@
+<html>
+<head>
+    <body>
+{% load bootstrap4 %}
+
+<form action=" " method="POST" enctype="multipart/form-data">
+                            {% csrf_token %}
+    {% bootstrap_form form %}
+    <p>press submit to submit the details.</p>
+    <input type="submit" class="btn btn-success text-center w-100 mb-3"
+             value="submit">
+</form>
+</body>
+</head>
+</html>
