@@ -4,7 +4,7 @@ from django.db import models
 from django.db import models
 
 # Create your models here.
-from CMS.models import Client
+
 
 
 class Policy(models.Model):
@@ -34,7 +34,7 @@ class Applied_Policy(models.Model):
     # ('Yearly', 'YEARLY'), ('Monthly', 'MONTHLY'), ('Semiannual', 'SEMIANNUAL')))
     next_payment_date=models.DateTimeField()
     policy_id=models.ForeignKey(Policy,on_delete=models.CASCADE,default=None,related_name='appliedname')
-    client_id=models.ForeignKey(Client,on_delete=models.CASCADE,default=None,related_name='Client')
+    # client_id=models.ForeignKey(Client,on_delete=models.CASCADE,default=None,related_name='Client')
 
     def __str__(self):
         return self.payment_method

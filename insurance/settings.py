@@ -26,21 +26,24 @@ SECRET_KEY = '=lr&r$%_7y7q6!m_@&1c))5y^5tnm2iq&!#^#47gs&68c%kjsz'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-AUTH_USER_MODEL = 'CMS.MyUser'
+AUTH_USER_MODEL = 'account.MyUser'
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'CMS',
-    'policy',
-    'bootstrap4',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'account',
+    'client',
+    'agent',
+    'policy',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -58,7 +61,7 @@ ROOT_URLCONF = 'insurance.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -124,3 +127,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
 # MEDIA_URL = '/uploads/'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+

@@ -9,6 +9,18 @@
           <option value="CMS.admin.Agent" />
           <option value="CMS.models.Agent" />
           <option value="CMS.models.MyUser" />
+          <option value="CMS.urls.clientregister" />
+          <option value="account.models.property" />
+          <option value="client.models.Agent" />
+          <option value="client.models.MyUser" />
+          <option value="client.admin.django" />
+          <option value="account.models.ValueError" />
+          <option value="account.models.MYUser" />
+          <option value="insurance.urls.path" />
+          <option value="account.views.logout" />
+          <option value="account.views.messages" />
+          <option value="account.views.redirect" />
+          <option value="account.forms.UserCreationForm" />
         </list>
       </option>
     </inspection_tool>
