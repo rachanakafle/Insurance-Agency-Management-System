@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e7e9352-2c59-466d-9101-ba83f867ddca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/account/signin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/migrations/0002_agent_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/migrations/0003_auto_20190125_1249.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap-select.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/css/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/images/assignment-concept.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/images/pen-3727883__340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/images/wallpaper2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/js/admin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/js/bootstrap-select.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/js/notify.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/js/respond.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/static/CMS/js/student.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/templates/CMS/agentregister.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/templates/CMS/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/templates/CMS/clientregister.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/templates/CMS/signin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/templates/CMS/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/insurance/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insurance/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/insurance/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/policy/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/policy/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/policy/models.py" afterDir="false" />
-    </list>
+    <list default="true" id="8e7e9352-2c59-466d-9101-ba83f867ddca" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
